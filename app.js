@@ -12,7 +12,7 @@ app.get('/food', (req, res) => {
 });
 
 // Serve HTML for /food route
-app.get('/drink', (req, res) => {
+app.get('/drinks', (req, res) => {
     res.sendFile(__dirname + '/public/drinks.html');
 });
 

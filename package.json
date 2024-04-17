@@ -2,13 +2,13 @@
   "name": "restaurant-web-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "dev": "nodemon app"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "El",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
