@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     // Fetch drink data from the API
-    $.get("/food/data", function(data) {
+    $.get("/drink/data", function(data) {
         // Iterate over each drink item and append it to the drink menu
         data.forEach(function(item) {
             $("#drink-menu").append(`
