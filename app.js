@@ -23,6 +23,30 @@ app.get('/food/data', (req, res) => {
     });
 });
 
+// Serve JSON data for /drinks endpoint
+app.get('/drinks/data', (req, res) => {
+    fs.readFile(__dirname + '/data/drinks.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        res.json(JSON.parse(data));
+    });
+});
+
+// Serve JSON data for /desserts endpoint
+app.get('/desserts/data', (req, res) => {
+    fs.readFile(__dirname + '/data/desserts.json', 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        res.json(JSON.parse(data));
+    });
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
