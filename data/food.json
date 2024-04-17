@@ -1,0 +1,18 @@
+// food.json
+[
+    {
+        "name": "Tagine",
+        "description": "A traditional Moroccan stew cooked in a conical clay pot.",
+        "price": "$15"
+    },
+    {
+        "name": "Couscous",
+        "description": "Steamed semolina served with vegetables, meat, and a flavorful broth.",
+        "price": "$12"
+    },
+    {
+        "name": "Pastilla",
+        "description": "A savory-sweet pastry filled with pigeon meat, almonds, and spices.",
+        "price": "$18"
+    }
+]
