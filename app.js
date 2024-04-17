@@ -11,6 +11,12 @@ app.get('/food', (req, res) => {
     res.sendFile(__dirname + '/public/food.html');
 });
 
+// Serve HTML for /food route
+app.get('/drink', (req, res) => {
+    res.sendFile(__dirname + '/public/drinks.html');
+});
+
+
 // Serve JSON data for /food endpoint
 app.get('/food/data', (req, res) => {
     fs.readFile(__dirname + '/data/food.json', 'utf8', (err, data) => {
