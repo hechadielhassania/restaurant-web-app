@@ -14,5 +14,15 @@
         "name": "Pastilla",
         "description": "A savory-sweet pastry filled with pigeon meat, almonds, and spices.",
         "price": "$18"
+    },
+    {
+        "name": "Mechoui",
+        "description": "Slow-roasted whole lamb seasoned with Moroccan spices.",
+        "price": "$25"
+    },
+    {
+        "name": "Harira",
+        "description": "A hearty tomato-based soup with lentils, chickpeas, and herbs.",
+        "price": "$10"
     }
 ]

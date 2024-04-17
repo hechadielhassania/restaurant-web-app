@@ -1,0 +1,28 @@
+
+[
+    {
+        "name": "Moroccan Mint Tea",
+        "description": "A refreshing blend of green tea, mint leaves, and sugar.",
+        "price": "$5"
+    },
+    {
+        "name": "Avocado Smoothie",
+        "description": "A creamy blend of avocado, milk, honey, and almonds.",
+        "price": "$7"
+    },
+    {
+        "name": "Tangier Lemonade",
+        "description": "Lemonade infused with tangy flavors of orange blossom water.",
+        "price": "$4"
+    },
+    {
+        "name": "Sahara Sunrise",
+        "description": "A vibrant blend of orange juice, grenadine, and sparkling water.",
+        "price": "$6"
+    },
+    {
+        "name": "Berber Whiskey",
+        "description": "A non-alcoholic blend of herbal tea, spices, and orange zest.",
+        "price": "$5"
+    }
+]

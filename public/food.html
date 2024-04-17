@@ -1,0 +1,41 @@
+<!-- food.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>Our Moroccan Food Menu</h1>
+        <div id="food-menu" class="row mt-4">
+            <!-- Food items will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Fetch food data from the API
+            $.get("/food/data", function(data) {
+                // Iterate over each food item and append it to the food menu
+                data.forEach(function(item) {
+                    $("#food-menu").append(`
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.name}</h5>
+                                    <p class="card-text">${item.description}</p>
+                                    <p class="card-text">Price: ${item.price}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

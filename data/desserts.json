@@ -1,0 +1,23 @@
+
+[
+    {
+        "name": "Baklava",
+        "description": "Layers of phyllo pastry filled with chopped nuts and sweetened with honey or syrup.",
+        "price": "$8"
+    },
+    {
+        "name": "M'hanncha",
+        "description": "A coiled pastry filled with almond paste and flavored with orange blossom water.",
+        "price": "$10"
+    },
+    {
+        "name": "Chebakia",
+        "description": "Deep-fried dough shaped into intricate flowers and dipped in honey syrup.",
+        "price": "$6"
+    },
+    {
+        "name": "Sellou",
+        "description": "A traditional Moroccan energy snack made with toasted flour, almonds, and honey.",
+        "price": "$7"
+    }
+]
