@@ -9,7 +9,7 @@
     "deploy":"gh-pages -d build",
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build": "npm run build"
+    "build": "npm start"
   },
   "keywords": [],
   "author": "El Hassania Hechadi",
