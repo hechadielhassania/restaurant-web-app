@@ -6,6 +6,10 @@ const PORT = 3000;
 
 app.use(express.static('public'));
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+});
+
 // Serve HTML for /food route
 app.get('/food', (req, res) => {
     res.sendFile(__dirname + '/public/food.html');
