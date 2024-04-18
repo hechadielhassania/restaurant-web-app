@@ -55,5 +55,4 @@ app.get('/desserts/data', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-    res.sendFile(__dirname + '/public/index.html');
 });
