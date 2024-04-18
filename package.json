@@ -1,11 +1,14 @@
 {
+  "homepage": "https://hechadielhassania.github.io/restaurant-web-app/",
   "name": "restaurant-web-app",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "keywords": [],
   "author": "El Hassania Hechadi",
@@ -14,5 +17,8 @@
     "bootstrap": "^5.3.3",
     "express": "^4.19.2",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
