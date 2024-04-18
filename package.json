@@ -5,8 +5,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node app.js",
     "dev": "nodemon app.js",
     "build": "npm start"
